@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A965117A2BC016FD00D3690B /* SamaraGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96511792BC016FD00D3690B /* SamaraGuideApp.swift */; };
+		A965117C2BC016FD00D3690B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965117B2BC016FD00D3690B /* ContentView.swift */; };
+		A965117E2BC016FD00D3690B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965117D2BC016FD00D3690B /* Item.swift */; };
+		A96511802BC016FE00D3690B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A965117F2BC016FE00D3690B /* Assets.xcassets */; };
+		A96511832BC016FE00D3690B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96511822BC016FE00D3690B /* Preview Assets.xcassets */; };
+		A965118D2BC016FE00D3690B /* SamaraGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965118C2BC016FE00D3690B /* SamaraGuideTests.swift */; };
+		A96511972BC016FF00D3690B /* SamaraGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96511962BC016FF00D3690B /* SamaraGuideUITests.swift */; };
+		A96511992BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96511982BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96511892BC016FE00D3690B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A965116E2BC016FD00D3690B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96511752BC016FD00D3690B;
+			remoteInfo = SamaraGuide;
+		};
+		A96511932BC016FF00D3690B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A965116E2BC016FD00D3690B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96511752BC016FD00D3690B;
+			remoteInfo = SamaraGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A96511762BC016FD00D3690B /* SamaraGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamaraGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96511792BC016FD00D3690B /* SamaraGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideApp.swift; sourceTree = "<group>"; };
+		A965117B2BC016FD00D3690B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A965117D2BC016FD00D3690B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A965117F2BC016FE00D3690B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96511822BC016FE00D3690B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A96511882BC016FE00D3690B /* SamaraGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaraGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A965118C2BC016FE00D3690B /* SamaraGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideTests.swift; sourceTree = "<group>"; };
+		A96511922BC016FF00D3690B /* SamaraGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaraGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96511962BC016FF00D3690B /* SamaraGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideUITests.swift; sourceTree = "<group>"; };
+		A96511982BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96511732BC016FD00D3690B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96511852BC016FE00D3690B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A965118F2BC016FF00D3690B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A965116D2BC016FD00D3690B = {
+			isa = PBXGroup;
+			children = (
+				A96511782BC016FD00D3690B /* SamaraGuide */,
+				A965118B2BC016FE00D3690B /* SamaraGuideTests */,
+				A96511952BC016FF00D3690B /* SamaraGuideUITests */,
+				A96511772BC016FD00D3690B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96511772BC016FD00D3690B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96511762BC016FD00D3690B /* SamaraGuide.app */,
+				A96511882BC016FE00D3690B /* SamaraGuideTests.xctest */,
+				A96511922BC016FF00D3690B /* SamaraGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96511782BC016FD00D3690B /* SamaraGuide */ = {
+			isa = PBXGroup;
+			children = (
+				A96511792BC016FD00D3690B /* SamaraGuideApp.swift */,
+				A965117B2BC016FD00D3690B /* ContentView.swift */,
+				A965117D2BC016FD00D3690B /* Item.swift */,
+				A965117F2BC016FE00D3690B /* Assets.xcassets */,
+				A96511812BC016FE00D3690B /* Preview Content */,
+			);
+			path = SamaraGuide;
+			sourceTree = "<group>";
+		};
+		A96511812BC016FE00D3690B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A96511822BC016FE00D3690B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A965118B2BC016FE00D3690B /* SamaraGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				A965118C2BC016FE00D3690B /* SamaraGuideTests.swift */,
+			);
+			path = SamaraGuideTests;
+			sourceTree = "<group>";
+		};
+		A96511952BC016FF00D3690B /* SamaraGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A96511962BC016FF00D3690B /* SamaraGuideUITests.swift */,
+				A96511982BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift */,
+			);
+			path = SamaraGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96511752BC016FD00D3690B /* SamaraGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A965119C2BC016FF00D3690B /* Build configuration list for PBXNativeTarget "SamaraGuide" */;
+			buildPhases = (
+				A96511722BC016FD00D3690B /* Sources */,
+				A96511732BC016FD00D3690B /* Frameworks */,
+				A96511742BC016FD00D3690B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamaraGuide;
+			productName = SamaraGuide;
+			productReference = A96511762BC016FD00D3690B /* SamaraGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96511872BC016FE00D3690B /* SamaraGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A965119F2BC016FF00D3690B /* Build configuration list for PBXNativeTarget "SamaraGuideTests" */;
+			buildPhases = (
+				A96511842BC016FE00D3690B /* Sources */,
+				A96511852BC016FE00D3690B /* Frameworks */,
+				A96511862BC016FE00D3690B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A965118A2BC016FE00D3690B /* PBXTargetDependency */,
+			);
+			name = SamaraGuideTests;
+			productName = SamaraGuideTests;
+			productReference = A96511882BC016FE00D3690B /* SamaraGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A96511912BC016FF00D3690B /* SamaraGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96511A22BC016FF00D3690B /* Build configuration list for PBXNativeTarget "SamaraGuideUITests" */;
+			buildPhases = (
+				A965118E2BC016FF00D3690B /* Sources */,
+				A965118F2BC016FF00D3690B /* Frameworks */,
+				A96511902BC016FF00D3690B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96511942BC016FF00D3690B /* PBXTargetDependency */,
+			);
+			name = SamaraGuideUITests;
+			productName = SamaraGuideUITests;
+			productReference = A96511922BC016FF00D3690B /* SamaraGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A965116E2BC016FD00D3690B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A96511752BC016FD00D3690B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A96511872BC016FE00D3690B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A96511752BC016FD00D3690B;
+					};
+					A96511912BC016FF00D3690B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A96511752BC016FD00D3690B;
+					};
+				};
+			};
+			buildConfigurationList = A96511712BC016FD00D3690B /* Build configuration list for PBXProject "SamaraGuide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A965116D2BC016FD00D3690B;
+			productRefGroup = A96511772BC016FD00D3690B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96511752BC016FD00D3690B /* SamaraGuide */,
+				A96511872BC016FE00D3690B /* SamaraGuideTests */,
+				A96511912BC016FF00D3690B /* SamaraGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96511742BC016FD00D3690B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96511832BC016FE00D3690B /* Preview Assets.xcassets in Resources */,
+				A96511802BC016FE00D3690B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96511862BC016FE00D3690B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96511902BC016FF00D3690B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96511722BC016FD00D3690B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A965117C2BC016FD00D3690B /* ContentView.swift in Sources */,
+				A965117E2BC016FD00D3690B /* Item.swift in Sources */,
+				A965117A2BC016FD00D3690B /* SamaraGuideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96511842BC016FE00D3690B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A965118D2BC016FE00D3690B /* SamaraGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A965118E2BC016FF00D3690B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96511992BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift in Sources */,
+				A96511972BC016FF00D3690B /* SamaraGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A965118A2BC016FE00D3690B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96511752BC016FD00D3690B /* SamaraGuide */;
+			targetProxy = A96511892BC016FE00D3690B /* PBXContainerItemProxy */;
+		};
+		A96511942BC016FF00D3690B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96511752BC016FD00D3690B /* SamaraGuide */;
+			targetProxy = A96511932BC016FF00D3690B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A965119A2BC016FF00D3690B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A965119B2BC016FF00D3690B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A965119D2BC016FF00D3690B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SamaraGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semvy.SamaraGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A965119E2BC016FF00D3690B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SamaraGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semvy.SamaraGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A96511A02BC016FF00D3690B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semvy.SamaraGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamaraGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SamaraGuide";
+			};
+			name = Debug;
+		};
+		A96511A12BC016FF00D3690B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semvy.SamaraGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamaraGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SamaraGuide";
+			};
+			name = Release;
+		};
+		A96511A32BC016FF00D3690B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semvy.SamaraGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SamaraGuide;
+			};
+			name = Debug;
+		};
+		A96511A42BC016FF00D3690B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semvy.SamaraGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SamaraGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96511712BC016FD00D3690B /* Build configuration list for PBXProject "SamaraGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A965119A2BC016FF00D3690B /* Debug */,
+				A965119B2BC016FF00D3690B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A965119C2BC016FF00D3690B /* Build configuration list for PBXNativeTarget "SamaraGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A965119D2BC016FF00D3690B /* Debug */,
+				A965119E2BC016FF00D3690B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A965119F2BC016FF00D3690B /* Build configuration list for PBXNativeTarget "SamaraGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96511A02BC016FF00D3690B /* Debug */,
+				A96511A12BC016FF00D3690B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96511A22BC016FF00D3690B /* Build configuration list for PBXNativeTarget "SamaraGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96511A32BC016FF00D3690B /* Debug */,
+				A96511A42BC016FF00D3690B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A965116E2BC016FD00D3690B /* Project object */;
+}
