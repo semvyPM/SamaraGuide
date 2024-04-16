@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A944DAB72BC97FF200950D6A /* TextFieldCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944DAB62BC97FF200950D6A /* TextFieldCustomView.swift */; };
+		A951A3AB2BC9854C0085B999 /* ButtonCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A3AA2BC9854C0085B999 /* ButtonCustomView.swift */; };
+		A951A3AD2BC986790085B999 /* TextFieldCustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A3AC2BC986790085B999 /* TextFieldCustomStyle.swift */; };
+		A951A3AF2BC986860085B999 /* ButtonCustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A3AE2BC986860085B999 /* ButtonCustomStyle.swift */; };
+		A951A3B12BC990FA0085B999 /* ExstentionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A3B02BC990FA0085B999 /* ExstentionColor.swift */; };
+		A951A3B32BCC3CDF0085B999 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A951A3B22BCC3CDF0085B999 /* GoogleService-Info.plist */; };
+		A951A3B62BCC3E9D0085B999 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A951A3B52BCC3E9D0085B999 /* FirebaseAuth */; };
+		A951A3B82BCC3E9D0085B999 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A951A3B72BCC3E9D0085B999 /* FirebaseFirestore */; };
+		A951A3BA2BCC3E9D0085B999 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A951A3B92BCC3E9D0085B999 /* FirebaseStorage */; };
+		A951A3BD2BCC41F30085B999 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A951A3BC2BCC41F30085B999 /* AuthService.swift */; };
 		A965117A2BC016FD00D3690B /* SamaraGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96511792BC016FD00D3690B /* SamaraGuideApp.swift */; };
 		A965117C2BC016FD00D3690B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965117B2BC016FD00D3690B /* ContentView.swift */; };
-		A965117E2BC016FD00D3690B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965117D2BC016FD00D3690B /* Item.swift */; };
 		A96511802BC016FE00D3690B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A965117F2BC016FE00D3690B /* Assets.xcassets */; };
-		A96511832BC016FE00D3690B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96511822BC016FE00D3690B /* Preview Assets.xcassets */; };
 		A965118D2BC016FE00D3690B /* SamaraGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965118C2BC016FE00D3690B /* SamaraGuideTests.swift */; };
 		A96511972BC016FF00D3690B /* SamaraGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96511962BC016FF00D3690B /* SamaraGuideUITests.swift */; };
 		A96511992BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96511982BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift */; };
+		A9D929902BC802400084293C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9298F2BC802400084293C /* Location.swift */; };
+		A9D929952BC805760084293C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D929942BC805760084293C /* MapView.swift */; };
+		A9D929982BC8065E0084293C /* LocationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D929972BC8065E0084293C /* LocationDataService.swift */; };
+		A9D9299B2BC809380084293C /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9299A2BC809380084293C /* MapViewModel.swift */; };
+		A9D9299D2BC825730084293C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9299C2BC825730084293C /* HomeView.swift */; };
+		A9D929A02BC8322A0084293C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9299F2BC8322A0084293C /* SignInView.swift */; };
+		A9D929A22BC832320084293C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D929A12BC832320084293C /* SignUpView.swift */; };
+		A9D929B02BC928260084293C /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D929AF2BC928260084293C /* ColorAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +51,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A944DAB62BC97FF200950D6A /* TextFieldCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomView.swift; sourceTree = "<group>"; };
+		A951A3AA2BC9854C0085B999 /* ButtonCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustomView.swift; sourceTree = "<group>"; };
+		A951A3AC2BC986790085B999 /* TextFieldCustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomStyle.swift; sourceTree = "<group>"; };
+		A951A3AE2BC986860085B999 /* ButtonCustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustomStyle.swift; sourceTree = "<group>"; };
+		A951A3B02BC990FA0085B999 /* ExstentionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExstentionColor.swift; sourceTree = "<group>"; };
+		A951A3B22BCC3CDF0085B999 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A951A3BC2BCC41F30085B999 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A96511762BC016FD00D3690B /* SamaraGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamaraGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96511792BC016FD00D3690B /* SamaraGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideApp.swift; sourceTree = "<group>"; };
 		A965117B2BC016FD00D3690B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A965117D2BC016FD00D3690B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A965117F2BC016FE00D3690B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A96511822BC016FE00D3690B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A96511882BC016FE00D3690B /* SamaraGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaraGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A965118C2BC016FE00D3690B /* SamaraGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideTests.swift; sourceTree = "<group>"; };
 		A96511922BC016FF00D3690B /* SamaraGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaraGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96511962BC016FF00D3690B /* SamaraGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideUITests.swift; sourceTree = "<group>"; };
 		A96511982BC016FF00D3690B /* SamaraGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9D9298F2BC802400084293C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A9D929942BC805760084293C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A9D929972BC8065E0084293C /* LocationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataService.swift; sourceTree = "<group>"; };
+		A9D9299A2BC809380084293C /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		A9D9299C2BC825730084293C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A9D9299F2BC8322A0084293C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A9D929A12BC832320084293C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A9D929AF2BC928260084293C /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A951A3B62BCC3E9D0085B999 /* FirebaseAuth in Frameworks */,
+				A951A3B82BCC3E9D0085B999 /* FirebaseFirestore in Frameworks */,
+				A951A3BA2BCC3E9D0085B999 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A951A3BB2BCC41E60085B999 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A951A3BC2BCC41F30085B999 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A965116D2BC016FD00D3690B = {
 			isa = PBXGroup;
 			children = (
@@ -96,21 +136,19 @@
 		A96511782BC016FD00D3690B /* SamaraGuide */ = {
 			isa = PBXGroup;
 			children = (
+				A951A3BB2BCC41E60085B999 /* Services */,
 				A96511792BC016FD00D3690B /* SamaraGuideApp.swift */,
+				A9D929A32BC841460084293C /* Styles */,
+				A9D9298E2BC801830084293C /* DataService */,
+				A9D929892BC801090084293C /* View */,
+				A9D9298C2BC801710084293C /* ViewModel */,
+				A9D9298B2BC8016B0084293C /* Model */,
 				A965117B2BC016FD00D3690B /* ContentView.swift */,
-				A965117D2BC016FD00D3690B /* Item.swift */,
 				A965117F2BC016FE00D3690B /* Assets.xcassets */,
-				A96511812BC016FE00D3690B /* Preview Content */,
+				A951A3B22BCC3CDF0085B999 /* GoogleService-Info.plist */,
+				A9D929AF2BC928260084293C /* ColorAssets.xcassets */,
 			);
 			path = SamaraGuide;
-			sourceTree = "<group>";
-		};
-		A96511812BC016FE00D3690B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A96511822BC016FE00D3690B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		A965118B2BC016FE00D3690B /* SamaraGuideTests */ = {
@@ -130,6 +168,69 @@
 			path = SamaraGuideUITests;
 			sourceTree = "<group>";
 		};
+		A9D929892BC801090084293C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9D9299F2BC8322A0084293C /* SignInView.swift */,
+				A9D929A12BC832320084293C /* SignUpView.swift */,
+				A9D929942BC805760084293C /* MapView.swift */,
+				A9D9299C2BC825730084293C /* HomeView.swift */,
+				A9D929AA2BC85C620084293C /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9D9298B2BC8016B0084293C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9D9298F2BC802400084293C /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9D9298C2BC801710084293C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9D929962BC805850084293C /* Map */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9D9298E2BC801830084293C /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				A9D929972BC8065E0084293C /* LocationDataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		A9D929962BC805850084293C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A9D9299A2BC809380084293C /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A9D929A32BC841460084293C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				A951A3AC2BC986790085B999 /* TextFieldCustomStyle.swift */,
+				A951A3AE2BC986860085B999 /* ButtonCustomStyle.swift */,
+				A951A3B02BC990FA0085B999 /* ExstentionColor.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		A9D929AA2BC85C620084293C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A944DAB62BC97FF200950D6A /* TextFieldCustomView.swift */,
+				A951A3AA2BC9854C0085B999 /* ButtonCustomView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +247,11 @@
 			dependencies = (
 			);
 			name = SamaraGuide;
+			packageProductDependencies = (
+				A951A3B52BCC3E9D0085B999 /* FirebaseAuth */,
+				A951A3B72BCC3E9D0085B999 /* FirebaseFirestore */,
+				A951A3B92BCC3E9D0085B999 /* FirebaseStorage */,
+			);
 			productName = SamaraGuide;
 			productReference = A96511762BC016FD00D3690B /* SamaraGuide.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +324,9 @@
 				Base,
 			);
 			mainGroup = A965116D2BC016FD00D3690B;
+			packageReferences = (
+				A951A3B42BCC3E9D0085B999 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A96511772BC016FD00D3690B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +343,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96511832BC016FE00D3690B /* Preview Assets.xcassets in Resources */,
+				A951A3B32BCC3CDF0085B999 /* GoogleService-Info.plist in Resources */,
+				A9D929B02BC928260084293C /* ColorAssets.xcassets in Resources */,
 				A96511802BC016FE00D3690B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +370,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A951A3B12BC990FA0085B999 /* ExstentionColor.swift in Sources */,
+				A951A3AD2BC986790085B999 /* TextFieldCustomStyle.swift in Sources */,
+				A9D929982BC8065E0084293C /* LocationDataService.swift in Sources */,
+				A951A3AB2BC9854C0085B999 /* ButtonCustomView.swift in Sources */,
+				A9D9299D2BC825730084293C /* HomeView.swift in Sources */,
 				A965117C2BC016FD00D3690B /* ContentView.swift in Sources */,
-				A965117E2BC016FD00D3690B /* Item.swift in Sources */,
+				A944DAB72BC97FF200950D6A /* TextFieldCustomView.swift in Sources */,
+				A9D929952BC805760084293C /* MapView.swift in Sources */,
+				A951A3AF2BC986860085B999 /* ButtonCustomStyle.swift in Sources */,
+				A9D929902BC802400084293C /* Location.swift in Sources */,
 				A965117A2BC016FD00D3690B /* SamaraGuideApp.swift in Sources */,
+				A9D929A02BC8322A0084293C /* SignInView.swift in Sources */,
+				A951A3BD2BCC41F30085B999 /* AuthService.swift in Sources */,
+				A9D929A22BC832320084293C /* SignUpView.swift in Sources */,
+				A9D9299B2BC809380084293C /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +551,14 @@
 				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SamaraGuide;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,11 +583,14 @@
 				DEVELOPMENT_TEAM = 8UQ67V2PHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SamaraGuide;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -592,6 +720,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A951A3B42BCC3E9D0085B999 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A951A3B52BCC3E9D0085B999 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A951A3B42BCC3E9D0085B999 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A951A3B72BCC3E9D0085B999 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A951A3B42BCC3E9D0085B999 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A951A3B92BCC3E9D0085B999 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A951A3B42BCC3E9D0085B999 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A965116E2BC016FD00D3690B /* Project object */;
 }
